@@ -1,0 +1,11 @@
+spring:
+  config:
+    activate:
+      on-profile: profile
+  datasource:
+    password: password
+    url: url
+    username: username
+
+file:
+  input: test_file.csv

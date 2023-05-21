@@ -1,4 +1,4 @@
-package entity;
+package demo.src.main.java.com.example.entity;
 
 @Getter
 @Setter

@@ -1,9 +1,10 @@
-package entity;
+package demo.src.main.java.com.example.entity;
 
 @Entity
 @Getter
 @Setter
 @Builder
+@AllArgsConstructor
 public class Order {
 
   @Id
@@ -12,13 +13,12 @@ public class Order {
 
   @Column
   private String email;
+  @Column(name = "number")
+  private String number;
 
-  @Column(name = "parcel_weight")
+
+  @Column(name = "weight")
   private Double weight;
-
-  @Column(name = "phone_number")
-  private String phoneNumber;
-
   @Column
   private String country;
 

@@ -1,8 +1,9 @@
-package repository;
+package demo.src.main.java.com.example.repository;
 
-import entity.NumberCount;
-import entity.Order;
-import entity.WeightCount;
+
+import demo.src.main.java.com.example.entity.NumberCount;
+import demo.src.main.java.com.example.entity.Order;
+import demo.src.main.java.com.example.entity.WeightCount;
 import java.util.List;
 
 public interface OrderRepository extends PagingAndSortingRepository<Order, Integer>{
